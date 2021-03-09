@@ -11,7 +11,7 @@
         <!--Doggies-->
         <scene sceneID="f2f-bH-9OD">
             <objects>
-                <tableViewController id="Qs2-Ew-uFv" sceneMemberID="viewController">
+                <tableViewController id="Qs2-Ew-uFv" customClass="DogsTableViewController" customModule="DoggyData" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="G7Q-BH-29T">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,7 +34,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="DoggyDataSegue" id="5Tm-GB-s6N"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="DoggySegue" id="5Tm-GB-s6N"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="750.76923076923072" y="128.67298578199052"/>
         </scene>
-        <!--View Controller-->
+        <!--Doggy View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DoggyData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DoggyViewController" customModule="DoggyData" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,6 +127,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HEj-4v-KF0"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="zpI-Sd-GNv" id="ryz-2b-gDM"/>
+                        <outlet property="doggyImage" destination="LiL-g7-jnX" id="vXa-mM-DPd"/>
+                        <outlet property="expectancyLabel" destination="Hcl-Qg-oWE" id="ehB-PM-rEP"/>
+                        <outlet property="temperamentLabel" destination="buk-lH-gJi" id="hgZ-aQ-oGv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
