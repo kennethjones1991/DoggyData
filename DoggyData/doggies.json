@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "name": "Labrador Retriever",
+        "temperament": [
+            "friendly",
+            "active",
+            "outgoing"
+        ],
+        "life-expectancy": "10-12 years",
+        "description": "The Labrador Retriever, often abbreviated to Labrador, is a breed of retriever-gun dog from the United Kingdom that was developed from imported Canadian fishing dogs. The Labrador is one of the most popular dog breeds in a number of countries in the world, particularly in the Western world.\n\nA favourite disability assistance breed in many countries, Labradors are frequently trained to aid those with blindness or autism, act as a therapy dog, or perform screening and detection work for law enforcement and other official agencies. The breed is best known for their obedience, loyalty, and playful composure. Additionally, they are prized as sporting and hunting dogs. Ancestors include a breed used in Newfoundland as fishing dogs, that would help in bringing in the fishing nets and recapture escaped fish.\n\nIn the 1830s, the 10th Earl of Home and his nephews the 5th Duke of Buccleuch and Lord John Scott, had imported progenitors of the breed from Newfoundland to Europe for use as gundogs. Another early advocate of these Newfoundland fishing dogs was the 2nd Earl of Malmesbury, who bred them for their expertise in waterfowling.\n\nDuring the 1880s, the 3rd Earl of Malmesbury, the 6th Duke of Buccleuch, and the 12th Earl of Home collaborated to develop and establish the Labrador Retriever breed. The dogs Buccleuch Avon and Buccleuch Ned, given by Malmesbury to Buccleuch, were mated with bitches carrying blood from those originally imported by the 5th Duke and the 10th Earl of Home. The offspring are the ancestors of all modern Labradors.",
+        "image": "labrador"
+    },
+    {
+        "id": "2",
+        "name": "German Shepherd",
+        "temperament": [
+            "confident",
+            "courageous",
+            "smart"
+        ],
+        "life-expectancy": "12-14 years",
+        "description": "The German Shepherd (German: Deutscher Schäferhund, German pronunciation: [ˈdɔʏtʃɐ ˈʃɛːfɐˌhʊnt]) is a breed of medium to large-sized working dog that originated in Germany. According to the FCI, the breed's English language name is German Shepherd Dog. The breed was officially known as the \"Alsatian Wolf Dog\" in the UK from after the First World War until 1977 when its name was changed back to German Shepherd. Despite its wolf-like appearance, the German Shepherd is a relatively modern breed of dog, with their origin dating to 1899.\n\nAs a herding dog, German Shepherds are working dogs developed originally for herding sheep. Since that time, however, because of their strength, intelligence, trainability, and obedience, German Shepherds around the world are often the preferred breed for many types of work, including disability assistance, search-and-rescue, police and military roles and acting. The German Shepherd is the second-most registered breed by the American Kennel Club and seventh-most registered breed by The Kennel Club in the United Kingdom.",
+        "image": "germanshepherd"
+    },
+    {
+        "id": "3",
+        "name": "Golden Retriever",
+        "temperament": [
+            "friendly",
+            "intelligent",
+            "devoted"
+        ],
+        "life-expectancy": "10-12 years",
+        "description": "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl, such as ducks and upland game birds, during hunting and shooting parties. The name \"retriever\" refers to the breed's ability to retrieve shot game undamaged due to their soft mouth. Golden retrievers have an instinctive love of water, and are easy to train to basic or advanced obedience standards. They are a long-coated breed, with a dense inner coat that provides them with adequate warmth in the outdoors, and an outer coat that lies flat against their bodies and repels water. Golden retrievers are well suited to residency in suburban or country environments. They shed copiously, particularly at the change of seasons, and require fairly regular grooming. The Golden Retriever was originally bred in Scotland in the mid-19th century.\n\nThe breed is a prominent participant in conformation shows for purebred dogs. The Golden Retriever is popular as a disability assistance dog, such as being a guide dog for the blind and a hearing dog for the deaf. In addition, they are trained to be a hunting dog, a detection dog, and a search and rescue participant. The breed's friendly, gentle temperament means it is unsuited to being a professional guard dog, but its temperament has also made it the third-most popular family dog breed (by registration) in the United States and Canada, the fifth-most popular in Brazil and Australia, and the eighth-most popular in the United Kingdom. Golden Retrievers are rarely choosy eaters, but require ample (two or more hours a day) exercise. The breed is fond of play but also highly trainable.",
+        "image": "golden"
+    },
+    {
+        "id": "4",
+        "name": "Poodle",
+        "temperament": [
+            "active",
+            "proud",
+            "very smart"
+        ],
+        "life-expectancy": "10-18 years",
+        "description": "The Poodle is a dog breed that comes in three varieties: Standard Poodle, Miniature Poodle, and Toy Poodle. The breed’s origin is disputed: whether it descends from Germany as a type of water dog, or from the French Barbet.\n\nRanked second most intelligent dog breed just behind the Border Collie, the Poodle is skillful in many dog sports and activities, including agility, obedience, tracking, herding, circus performance, and assistance dogs. Poodles have taken top honors in many conformation shows, including \"Best in Show\" at the Westminster Kennel Club Dog Show in 1991, 2002, and 2020 and at the World Dog Show in 2007 and 2010. They are recorded as the seventh most popular dog breed in the United States.",
+        "image": "poodle"
+    },
+    {
+        "id": "5",
+        "name": "Beagle",
+        "temperament": [
+            "friendly",
+            "curious",
+            "merry"
+        ],
+        "life-expectancy": "10-15 years",
+        "description": "The beagle is a breed of small hound that is similar in appearance to the much larger foxhound. The beagle is a scent hound, developed primarily for hunting hare (beagling). Possessing a great sense of smell and superior tracking instincts, the beagle is the primary breed used as detection dogs for prohibited agricultural imports and foodstuffs in quarantine around the world. The beagle is intelligent. It is a popular pet due to its size, good temper, and a lack of inherited health problems.\n\nThe modern breed was developed in Great Britain around the 1830s from several breeds, including the Talbot Hound, the North Country Beagle, the Southern Hound, and possibly the Harrier.\n\nBeagles have been depicted in popular culture since Elizabethan times in literature and paintings, and more recently in film, television, and comic books.",
+        "image": "beagle"
+    },
+    {
+        "id": "6",
+        "name": "Rottweiler",
+        "temperament": [
+            "loyal",
+            "loving",
+            "confident guardian"
+        ],
+        "life-expectancy": "9-10 years",
+        "description": "The Rottweiler is a breed of domestic dog, regarded as medium-to-large or large. The dogs were known in German as Rottweiler Metzgerhund, meaning Rottweil butchers' dogs, because their main use was to herd livestock and pull carts laden with butchered meat to market. This continued until the mid-19th century when railways replaced droving. Although still used to herd stock in many parts of the world, Rottweilers are now also used as search and rescue dogs, guard dogs, and police dogs.",
+        "image": "rottweiler"
+    },
+    {
+        "id": "7",
+        "name": "Siberian Husky",
+        "temperament": [
+            "loyal",
+            "mischievous",
+            "outgoing"
+        ],
+        "life-expectancy": "12-14 years",
+        "description": "The Siberian Husky is a medium-sized working sled dog breed. The breed belongs to the Spitz genetic family. It is recognizable by its thickly furred double coat, erect triangular ears, and distinctive markings, and is smaller than the similar-looking Alaskan Malamute.\n\nSiberian Huskies originated in Northeast Asia where they are bred by the Chukchi people of Siberia for sled-pulling, and companionship. It is an active, energetic, resilient breed, whose ancestors lived in the extremely cold and harsh environment of the Siberian Arctic. William Goosak, a Russian fur trader, introduced them to Nome, Alaska, during the Nome Gold Rush, initially as sled dogs. Today, the Siberian Husky is typically kept as a house pet, though they are still frequently used as sled dogs by competitive and recreational mushers.",
+        "image": "husky"
+    },
+    {
+        "id": "8",
+        "name": "Mastiff",
+        "temperament": [
+            "courageous",
+            "dignified",
+            "good-natured"
+        ],
+        "life-expectancy": "6-10 years",
+        "description": "A mastiff is a large and powerful type of dog. Mastiffs are among the largest dogs, and typically have a short coat, a long low-set tail and large feet; the skull is large and bulky, the muzzle broad and short (brachycephalic) and the ears drooping and pendant-shaped. European and Asian records dating back 3,000 years show dogs of the mastiff type. Mastiffs have historically been guard dogs, protecting homes and property, although throughout history they have been used as hunting dogs, war dogs and for blood sports, fighting each other and other animals such as bulls, bears and even lions.\n\nHistorical and archaeological evidence suggests that mastiffs have long been distinct in both form and function from the similarly large livestock guardian dogs from which they were most likely developed; they also form separate genetic populations. The Fédération Cynologique Internationale and some kennel clubs group the two types together as molossoid dogs; some modern livestock guardian breeds, such as the Pyrenean Mastiff, the Spanish Mastiff and the Tibetan Mastiff, have the word \"Mastiff\" in their name, but are not considered true mastiffs.\n\nMany older English sources refer to mastiffs as bandogs or bandogges, although technically the term \"bandog\" meant a dog that was tethered by a chain (or \"bande\") that would be released at night; the terms \"mastiff\" and \"bandog\" were often used interchangeably. In the 20th century, the term \"bandog\" has been revived to describe some lines of large mastiff-type guard dogs.",
+        "image": "mastiff"
+    },
+    {
+        "id": "9",
+        "name": "Great Dane",
+        "temperament": [
+            "friendly",
+            "patient",
+            "dependable"
+        ],
+        "life-expectancy": "7-10 years",
+        "description": "The Great Dane, also known as the German Mastiff or Deutsche Dogge, is a breed of dog from Germany. The Great Dane descends from hunting dogs known from the Middle Ages and is one of the largest breeds in the world.",
+        "image": "greatdane"
+    },
+    {
+        "id": "10",
+        "name": "Pomeranian",
+        "temperament": [
+            "inquisitive",
+            "bold",
+            "lively"
+        ],
+        "life-expectancy": "12-16 years",
+        "description": "The Pomeranian (often known as a Pom) is a breed of dog of the Spitz type that is named for the Pomerania region in north-west Poland and north-east Germany in Central Europe. Classed as a toy dog breed because of its small size, the Pomeranian is descended from larger Spitz-type dogs, specifically the German Spitz. It has been determined by the Fédération Cynologique Internationale to be part of the German Spitz breed; and in many countries, they are known as the Zwergspitz (\"Dwarf Spitz\").\n\nThe breed has been made popular by a number of royal owners since the 18th century. Queen Victoria owned a particularly small Pomeranian and consequently, the smaller variety became universally popular. During Queen Victoria's lifetime alone, the size of the breed decreased by half. Overall, the Pomeranian is a sturdy, healthy dog. The most common health issues are luxating patella and tracheal collapse. More rarely, the breed can have Alopecia X, a skin condition colloquially known as \"black skin disease\". This is a genetic disease which causes the dog's skin to turn black and lose all or most of its hair. As of 2013, in terms of registration figures, since at least 1998, the breed has ranked among the top fifty most popular breeds in the United States, and the current fashion for small dogs has increased their popularity worldwide.",
+        "image": "pomeranian"
+    }
+]
