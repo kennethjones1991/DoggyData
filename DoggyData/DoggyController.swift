@@ -22,4 +22,12 @@ class DoggyController {
             }
         }
     }
+    
+    func sortById() {
+        doggies.sort(by: {$0.id < $1.id})
+    }
+    
+    func sortByName() {
+        doggies.sort(by: {$0.name < $1.name})
+    }
 }

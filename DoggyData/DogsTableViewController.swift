@@ -9,13 +9,30 @@ import UIKit
 
 class DogsTableViewController: UITableViewController {
     
+    @IBOutlet weak var sortButton: UIBarButtonItem!
+    
     let doggyController = DoggyController()
+    var sortById = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         doggyController.decodeDoggyData()
 
+        tableView.reloadData()
+    }
+    
+    @IBAction func changeSort(_ sender: Any) {
+        sortById = !sortById
+        
+        if sortById {
+            sortButton.image = UIImage(systemName: "a")
+            doggyController.sortById()
+        } else {
+            sortButton.image = UIImage(systemName: "list.number")
+            doggyController.sortByName()
+        }
+        
         tableView.reloadData()
     }
 

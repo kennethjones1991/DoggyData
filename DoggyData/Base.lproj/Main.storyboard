@@ -43,7 +43,16 @@
                             <outlet property="delegate" destination="Qs2-Ew-uFv" id="bZ5-BS-CR5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Doggies" id="EeZ-eQ-g7i"/>
+                    <navigationItem key="navigationItem" title="Doggies" id="EeZ-eQ-g7i">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="a" catalog="system" id="ua4-vI-kEU">
+                            <connections>
+                                <action selector="changeSort:" destination="Qs2-Ew-uFv" id="Nw3-9g-hN5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sortButton" destination="ua4-vI-kEU" id="UNz-Nb-gtJ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PiO-6O-teQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,7 +70,7 @@
                                 <rect key="frame" x="0.0" y="140" width="390" height="670"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A6n-Hr-tXN">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="353.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="395.66666666666669"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LiL-g7-jnX">
                                                 <rect key="frame" x="20" y="8" width="350" height="233.33333333333334"/>
@@ -87,10 +96,19 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="More Info: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xgb-xN-e92">
+                                                <rect key="frame" x="16" y="341.66666666666669" width="358" height="34"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="zpI-Sd-GNv" firstAttribute="top" secondItem="Hcl-Qg-oWE" secondAttribute="bottom" constant="8" id="5O7-EG-Zg8"/>
+                                            <constraint firstAttribute="bottom" secondItem="Xgb-xN-e92" secondAttribute="bottom" constant="20" id="BNl-wI-lZd"/>
                                             <constraint firstAttribute="trailing" secondItem="LiL-g7-jnX" secondAttribute="trailing" constant="20" id="N9w-3g-1fv"/>
                                             <constraint firstAttribute="trailing" secondItem="buk-lH-gJi" secondAttribute="trailing" constant="20" id="NVR-Rb-XSP"/>
                                             <constraint firstItem="Hcl-Qg-oWE" firstAttribute="leading" secondItem="A6n-Hr-tXN" secondAttribute="leading" constant="20" id="OA5-UX-ssx"/>
@@ -98,9 +116,11 @@
                                             <constraint firstAttribute="trailing" secondItem="Hcl-Qg-oWE" secondAttribute="trailing" constant="20" id="eCL-TW-RBm"/>
                                             <constraint firstItem="LiL-g7-jnX" firstAttribute="top" secondItem="A6n-Hr-tXN" secondAttribute="top" constant="8" id="ezL-gu-siM"/>
                                             <constraint firstItem="Hcl-Qg-oWE" firstAttribute="top" secondItem="buk-lH-gJi" secondAttribute="bottom" constant="8" id="heF-Il-UrW"/>
+                                            <constraint firstAttribute="trailing" secondItem="Xgb-xN-e92" secondAttribute="trailing" constant="16" id="lp8-EC-T2v"/>
                                             <constraint firstItem="buk-lH-gJi" firstAttribute="leading" secondItem="A6n-Hr-tXN" secondAttribute="leading" constant="20" id="o4r-M4-PYM"/>
                                             <constraint firstItem="buk-lH-gJi" firstAttribute="top" secondItem="LiL-g7-jnX" secondAttribute="bottom" constant="8" id="sQF-uu-Klj"/>
-                                            <constraint firstAttribute="bottom" secondItem="zpI-Sd-GNv" secondAttribute="bottom" constant="20" id="u2R-aK-BhK"/>
+                                            <constraint firstItem="Xgb-xN-e92" firstAttribute="leading" secondItem="A6n-Hr-tXN" secondAttribute="leading" constant="16" id="vGH-Ip-eX0"/>
+                                            <constraint firstItem="Xgb-xN-e92" firstAttribute="top" secondItem="zpI-Sd-GNv" secondAttribute="bottom" constant="8" id="vxg-Xq-0tt"/>
                                             <constraint firstItem="LiL-g7-jnX" firstAttribute="leading" secondItem="A6n-Hr-tXN" secondAttribute="leading" constant="20" id="zfF-YD-HAf"/>
                                             <constraint firstAttribute="trailing" secondItem="zpI-Sd-GNv" secondAttribute="trailing" constant="20" id="zmC-KE-Nxg"/>
                                         </constraints>
@@ -131,6 +151,7 @@
                         <outlet property="descriptionLabel" destination="zpI-Sd-GNv" id="ryz-2b-gDM"/>
                         <outlet property="doggyImage" destination="LiL-g7-jnX" id="vXa-mM-DPd"/>
                         <outlet property="expectancyLabel" destination="Hcl-Qg-oWE" id="ehB-PM-rEP"/>
+                        <outlet property="linkTextView" destination="Xgb-xN-e92" id="3m0-ZQ-2AM"/>
                         <outlet property="temperamentLabel" destination="buk-lH-gJi" id="hgZ-aQ-oGv"/>
                     </connections>
                 </viewController>
@@ -158,6 +179,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="a" catalog="system" width="128" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

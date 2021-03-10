@@ -13,6 +13,7 @@ class DoggyViewController: UIViewController {
     @IBOutlet weak var temperamentLabel: UILabel!
     @IBOutlet weak var expectancyLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var linkTextView: UITextView!
     
     var doggy: Doggy!
 
@@ -25,9 +26,10 @@ class DoggyViewController: UIViewController {
     func updateViews() {
         title = doggy.name
         doggyImage.image = UIImage(named: doggy.image)
-        temperamentLabel.text = "Temperament: \(doggy.temperament.joined(separator: ", ").capitalized)"
+        temperamentLabel.text = doggy.temperament.joined(separator: ", ").capitalized
         expectancyLabel.text = "Life expectancy: \(doggy.lifeExpectancy)"
         descriptionLabel.text = doggy.description
+        linkTextView.text = "More Info: \(doggy.link)"
     }
 }
 

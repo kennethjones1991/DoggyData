@@ -14,4 +14,5 @@ struct Doggy: Codable {
     let lifeExpectancy: String
     let description: String
     let image: String
+    let link: String
 }
